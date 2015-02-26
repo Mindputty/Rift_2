@@ -16,7 +16,7 @@ Platform assembly: C:\Users\Owner\Documents\GitHub\Rift_2\room_6\test_room_6_Dat
 Loading C:\Users\Owner\Documents\GitHub\Rift_2\room_6\test_room_6_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
 Platform assembly: C:\Users\Owner\Documents\GitHub\Rift_2\room_6\test_room_6_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\Owner\Documents\GitHub\Rift_2\room_6\test_room_6_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.078 seconds
+- Completed reload, in  0.074 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
