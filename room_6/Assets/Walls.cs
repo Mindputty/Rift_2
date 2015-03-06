@@ -15,7 +15,7 @@ public class Walls : MonoBehaviour {
 
 	void Start () {
 
-		ReadXML ("C:\\Users\\Owner\\Documents\\GitHub\\Rift_2\\room_6\\config.xml");
+		ReadXML ("config.xml");
 
 		Vector3 scaling = new Vector3();
 		scaling.x = scaleX;
@@ -25,8 +25,11 @@ public class Walls : MonoBehaviour {
 		Debug.Log ("Scaling started! Scale X set to: " + scaleX);
 		Debug.Log ("Scale Y (ceiling) set to: " + scaleY);
 		Debug.Log ("Scale Z set to: " + scaleZ);
+
 		Transform trans = GetComponent <Transform> ();
-		trans.localScale.Scale(scaling);
+		trans.localScale = scaling;
+
+		trans.localScale.Set (2.0f, 1.0f, 2.0f);
 
 	}
 
